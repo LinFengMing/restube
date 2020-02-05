@@ -1,25 +1,16 @@
-<div class="top">
+<div class="top w3-container w3-center">
     <div class="logo"><a href="index"><img src="assets/img/logo.jpg"></a></div>
-    <ul class="nav">
-        <li><a href="index">HOME</a></li>
-        <li><a href="products/all">商品一覽</a></li>
-        <li><a href="cantact">聯絡我們</a></li>
+    <div class="nav w3-bar w3-padding-32">
+        <a class="w3-bar-item" href="index">HOME</a>
+        <a class="w3-bar-item" href="products/all">商品一覽</a>
+        <a class="w3-bar-item" href="contact">聯絡我們</a>
         <?php if($this->session->userdata('user_login_status')) { ?>
-            <li>
-                <a href="member">會員資訊</a>
-            </li>
-            <li>
-                <a href="history">歷史訂單</a>
-            </li>
-            <li>
-                <a href="logout">登出</a>
-            </li>
+            <a class="w3-bar-item" href="member">會員資訊</a>
+            <a class="w3-bar-item" href="history">歷史訂單</a>
+            <a class="w3-bar-item" href="logout">登出</a>
         <?php } else { ?>
-            <li>
-                <a href="login">登入</a>
-            </li>
+            <a class="w3-bar-item" href="login">登入</a>
         <?php } ?>
-        </li>
-        <li><a href="order"><i class="icon cart"></i>$<?= $this->cart->total(); ?></a></li>
-    </ul>
+        <a class="w3-bar-item" href="order"><i class="icon cart"></i>$<?= $this->cart->total(); ?></a>
+    </div>
 </div>

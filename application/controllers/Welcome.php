@@ -79,14 +79,14 @@ class Welcome extends CI_Controller
     }
 
     // 聯絡我們
-    public function cantact()
+    public function contact()
     {
         // 頁面資訊
         $view_data = array(
-            'title' => "Restube - Cantact",
-            'path' => 'cantact',
-            'page' => 'cantact.php',
-            'menu' => 'cantact',
+            'title' => "Restube - Contact",
+            'path' => 'contact',
+            'page' => 'contact.php',
+            'menu' => 'contact',
         );
 
         $view_data['cart'] = $this->cart->contents(true);

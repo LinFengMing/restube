@@ -1,5 +1,5 @@
 <div class="contain">
-    <div class="cantact">
+    <div class="contact">
         <div class="fb">Facebook</div>
         <div><img src="assets/img/Fb qrcode.jpg" alt=""></div>
         <div class="line">Line</div>

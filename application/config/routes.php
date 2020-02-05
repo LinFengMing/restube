@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['index'] = 'welcome/index';
 $route['news'] = 'welcome/news';
 $route['about'] = 'welcome/about';
-$route['cantact'] = 'welcome/cantact';
+$route['contact'] = 'welcome/contact';
 $route['products/(:any)'] = 'welcome/products/$1';
 $route['product/(:any)'] = 'welcome/product/$1';
 $route['order'] = 'welcome/order';

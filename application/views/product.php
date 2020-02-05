@@ -1,6 +1,6 @@
 <div class="container">
     <div class="product-item" data-product="<?=$product['id'];?>">
-        <div class="product-item-img"><img src="<?=$product['main_photo'];?>" width="550px" height="367px"></div>
+        <div class="product-item-img w3-center"><img src="<?=$product['main_photo'];?>"></div>
         <div class="product-item-title"><span><?=$product['title'];?></span></div>
         <div class="product-item-sub-title"><span><?=$product['sub_title'];?></span></div>
         <div class="product-item-price"><span>$<?=$product['cost'];?></span></div>

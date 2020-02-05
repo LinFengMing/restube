@@ -1,47 +1,40 @@
 @import url("reset.css");
 .wrap {
-    width: 966px;
-    margin: auto;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 .top {
-    width: 966px;
 }
 
 .logo {
     padding-top: 50px;
-    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
 }
 
 .nav {
-    list-style-type:none;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.nav li a {
+.nav a {
     color: #000;
     text-decoration: none;
     display:block;
-    padding:3px;
-    margin: 30px;
     font-size: 16px;
-    font-weight: bold;
 }
 
-.nav li a:hover{
-    color: blue;
+.nav a:hover{
     text-decoration: none;
-    display:block;
-    padding:3px;
-    margin: 30px;
+    opacity: 0.7;
 }
 
 .container {
-    width: 966px;
 }
 
-.cantact {
+.contact {
     width: 400px;
     margin: auto;
     text-align: center;
@@ -63,30 +56,43 @@
 
 .product-lineup {
     margin-top: 30px;
-    text-align: center;
     font-size: 28px;
     font-weight: bold;
+    line-height: normal;
+    position: sticky;
+    text-align: center;
+}
+
+.product-lineup:before {
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    content: "";
+}
+
+.product-lineup span {
+    padding: 0 2em;
+    background-color: #fff;
 }
 
 .product {
     margin-top: 30px;
-    width: 966px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .item {
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-bottom: 20px;
-    width: 320px;
-    box-sizing: border-box;
-    padding-bottom: 20px;
+    min-height: 270px;
 }
 
-.item-img {
-    width: 320px;
-    height: 213px;
+.item-img a {
+    display: block;
+}
+
+.item-img a img {
+    width: 100%;
 }
 
 .item-title {
@@ -110,16 +116,9 @@
 }
 
 .product-item {
-    margin: auto;
-    margin-bottom: 20px;
-    width: 550px;
-    box-sizing: border-box;
-    padding-bottom: 20px;
 }
 
 .product-item-img {
-    width: 550px;
-    height: 367px;
 }
 
 .product-item-title {
@@ -178,8 +177,7 @@
 }
 
 .cart {
-    width: 600px;
-    margin: auto;
+    width: 100%;
 }
 
 .cart-none {
@@ -190,6 +188,7 @@
 
 .cart-item {
     margin-top: 50px;
+    padding: 16px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -218,6 +217,7 @@
 .cart-item-name-price {
     margin-top: 5px;
     font-size: 16px;
+    line-height: normal;
 }
 
 .cart-item-name-total {
@@ -244,7 +244,7 @@
 
 .order-form {
     padding-top: 50px;
-    width: 600px;
+    width: 100%;
     margin: auto;
 }
 
@@ -256,7 +256,6 @@
 .field {
     margin-top: 5px;
     font-size: 18px;
-    font-weight: bold;
 }
 
 .form-required {
@@ -264,11 +263,11 @@
 }
 
 .form-input {
-    width: 600px;
+    width: 100%;
 }
 
 .password {
-    width: 600px;
+    width: 100%;
 }
 
 .footer {

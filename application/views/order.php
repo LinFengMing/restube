@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container w3-container">
     <div class="cart">
         <h2 class="cart-title">購買清單</h2>
         <div class="cart-items">
@@ -6,7 +6,7 @@
             <div class="cart-none">目前購物車尚無任何商品！</div>
             <?php } else { ?>
                 <?php foreach ($cart as $key => $value) { ?>
-                <div class="cart-item">
+                <div class="cart-item w3-card">
                     <div class="cart-item-image">
                         <img src="<?=$value['options']['image']?>" width="100px" height="100px">
                     </div>
@@ -33,7 +33,7 @@
                 <?= $sys_msg; ?>
             </div>
         <?php } ?>
-        <form method="post" class="form">
+        <form method="post" class="form w3-container">
             <div class="field">
                 <h2 class="form-title">運送資訊</h2>
                 <input type="hidden" name="rule" value="order">
@@ -41,27 +41,27 @@
             <div class="field">
                 <label>收件人姓名</label><label class="form-required">*</label>
                 <br>
-                <input class="form-input" type="text" name="order_name" placeholder="name" value="<?=$user['nickname']?>">
+                <input class="w3-input" type="text" name="order_name" placeholder="name" value="<?=$user['nickname']?>">
             </div>
             <div class="field">
                 <label>收件人電話</label><label class="form-required">*</label>
                 <br>
-                <input class="form-input" type="text" name="order_phone" placeholder="phone" value="<?=$user['phone']?>">
+                <input class="w3-input" type="text" name="order_phone" placeholder="phone" value="<?=$user['phone']?>">
             </div>
             <div class="field">
                 <label>收件人信箱</label><label class="form-required">*</label>
                 <br>
-                <input class="form-input" type="text" name="order_email" placeholder="email" value="<?=$user['email']?>">
+                <input class="w3-input" type="text" name="order_email" placeholder="email" value="<?=$user['email']?>">
             </div>
             <div class="field">
                 <label>收件人地址</label><label class="form-required">*</label>
                 <br>
-                <input class="form-input" type="text" name="order_addr" placeholder="address" value="<?=$user['address']?>">
+                <input class="w3-input" type="text" name="order_addr" placeholder="address" value="<?=$user['address']?>">
             </div>
             <div class="field">
                 <label>備註</label>
                 <br>
-                <textarea class="form-input" name="order_remark"></textarea>
+                <textarea class="w3-input" name="order_remark"></textarea>
             </div>
             <div class="field">
                 <!-- <button class="form-submit">提交訂單</button> -->
