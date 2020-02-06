@@ -148,11 +148,14 @@
 .product-item-quantity {
     margin-top: 10px;
 }
+
 .btn-q-minus {
+    font-size: 24px;
     color: gray;
 }
 
 .btn-q-plus {
+    font-size: 24px;
     color: gray;
 }
 
