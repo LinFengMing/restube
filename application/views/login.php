@@ -6,25 +6,21 @@
                 <?= $error; ?>
             </div>
         <?php } ?>
-        <form method="post" class="form">
-            <div class="field">
-                <h2 class="form-title">歡迎登入 Restube</h2>
-                <input type="hidden" name="rule" value="login">
-            </div>
-            <div class="field">
+        <div class="w3-container w3-blue">
+            <h2>歡迎登入 Restube</h2>
+        </div>
+        <form method="post" class="w3-container">
+            <input type="hidden" name="rule" value="login">
+            <div class="w3-section">
                 <label>信箱</label><label class="form-required">*</label>
-                <br>
-                <input class="form-input" type="text" name="email" placeholder="email">
+                <input class="w3-input" type="text" name="email" placeholder="email">
             </div>
-            <div class="field">
+            <div class="w3-section">
                 <label>密碼</label><label class="form-required">*</label>
-                <br>
-                <input class="password" type="password" name="password" placeholder="Password">
+                <input class="w3-input" type="password" name="password" placeholder="Password">
             </div>
-            <div class="field">
-                <button class="ui blue button">登入</button>
-                <a href="register" class="ui green button">註冊會員</a>
-            </div>
+            <button class="w3-btn w3-blue">登入</button>
+            <a href="register" class="w3-btn w3-green">註冊會員</a>
         </form>
     </div>
 </div>

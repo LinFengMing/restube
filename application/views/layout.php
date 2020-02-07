@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700&display=swap&subset=chinese-traditional" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/w3.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/dist/semantic.min.css">
     <!-- <link rel="stylesheet" href="assets/css/plugin/unslider.css"> -->
     <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
 </head>

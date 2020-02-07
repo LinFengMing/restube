@@ -18,16 +18,16 @@
         </div>
         <div class="item-form-button">
             <?php if($product['reserve'] != 0) { ?>
-            <button class="ui green button btn-insert-cart">
+            <button class="w3-btn w3-green btn-insert-cart">
                 <i class="icon cart"></i>
                 加入購物車
             </button>
-            <button class="ui blue button btn-paymentNow">
+            <button class="w3-btn w3-blue btn-paymentNow">
                 <i class="icon dollar"></i>
                 商品結帳
             </button>
             <?php }else{ ?>
-            <button class="ui blue button">
+            <button class="w3-btn w3-blue">
                 抱歉目前尚無庫存，正在補貨中。
             </button>
             <?php } ?>

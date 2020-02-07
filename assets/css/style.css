@@ -1,11 +1,7 @@
-@import url("reset.css");
 .wrap {
     max-width: 960px;
     margin: 0 auto;
     font-family: 'Noto Sans TC', sans-serif;
-}
-
-.top {
 }
 
 .logo {
@@ -14,9 +10,6 @@
 
 .logo img {
     max-width: 100%;
-}
-
-.nav {
 }
 
 .nav a {
@@ -31,23 +24,8 @@
     opacity: 0.7;
 }
 
-.container {
-}
-
-.contact {
-    width: 400px;
-    margin: auto;
-    text-align: center;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.fb {
-    margin-top: 20px;
-}
-
-.line {
-    margin-top: 80px;
+.contact img {
+    max-width: 100%;
 }
 
 .container-top img{
@@ -192,19 +170,10 @@
 .cart-item {
     margin-top: 50px;
     padding: 16px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.cart-item-image {
-    margin-top: 10px;
-    width: 100px;
-    height: 100px;
-}
-
-.cart-item-information {
-    margin-left: 90px;
-    width: 250px;
+.cart-item-image img {
+    width: 100%;
 }
 
 .cart-item-name {
@@ -228,17 +197,9 @@
     font-size: 16px;
 }
 
-/*.cart-item-remove {
-    margin-top: 10px;
-    background-color: red;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}*/
+.cart-action {
+    width: 70px;
+}
 
 .cart-totalPrice {
     margin-top: 50px;
@@ -251,26 +212,17 @@
     margin: auto;
 }
 
+.product_photo {
+    width: 110px;
+}
+
 .warning-message {
     font-size: 18px;
     color: red;
 }
 
-.field {
-    margin-top: 5px;
-    font-size: 18px;
-}
-
 .form-required {
     color: red;
-}
-
-.form-input {
-    width: 100%;
-}
-
-.password {
-    width: 100%;
 }
 
 .footer {
