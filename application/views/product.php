@@ -8,11 +8,11 @@
             <label for="product-item-quantity" class="product-item-subject">選擇數量</label>
             <div class="product-item-quantity" id="product-item-quantity">
                 <a href="javascript: void(0)" class="btn-q-minus">
-                    <i class="icon minus"></i>
+                    <!-- <i class="icon minus"></i> --> 一
                 </a>
                 <input type="count" class="product-item-input-quantity" value="1" data-value="1">
                 <a href="javascript: void(0)" class="btn-q-plus">
-                    <i class="icon plus"></i>
+                    <!-- <i class="icon plus"></i> --> 十
                 </a>
             </div>
         </div>

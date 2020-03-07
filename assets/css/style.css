@@ -130,11 +130,13 @@
 .btn-q-minus {
     font-size: 24px;
     color: gray;
+    text-decoration: none;
 }
 
 .btn-q-plus {
     font-size: 24px;
     color: gray;
+    text-decoration: none;
 }
 
 .product-item-input-quantity {
