@@ -3,16 +3,17 @@
         <div class="product-item-img w3-center"><img src="<?=$product['main_photo'];?>"></div>
         <div class="product-item-title"><span><?=$product['title'];?></span></div>
         <div class="product-item-sub-title"><span><?=$product['sub_title'];?></span></div>
-        <div class="product-item-price"><span>$<?=$product['cost'];?></span></div>
-        <div class="product-item-form-quantity">
+        <div class="product-item-price"><span>建議售價 $<?=$product['price'];?></span></div>
+        <div class="product-item-cost"><span>售價 $<?=$product['cost'];?></span></div>
+        <!-- <div class="product-item-form-quantity">
             <label for="product-item-quantity" class="product-item-subject">選擇數量</label>
             <div class="product-item-quantity" id="product-item-quantity">
                 <a href="javascript: void(0)" class="btn-q-minus">
-                    <!-- <i class="icon minus"></i> --> 一
+                    <i class="icon minus"></i> 一
                 </a>
                 <input type="count" class="product-item-input-quantity" value="1" data-value="1">
                 <a href="javascript: void(0)" class="btn-q-plus">
-                    <!-- <i class="icon plus"></i> --> 十
+                    <i class="icon plus"></i> 十
                 </a>
             </div>
         </div>
@@ -31,14 +32,14 @@
                 抱歉目前尚無庫存，正在補貨中。
             </button>
             <?php } ?>
-        </div>
+        </div> -->
         <div class="product-item-detail">
             <?=$product['content'];?>
         </div>
     </div>
 </div>
 <script>
-    $(document).ready(function() {
+    /* $(document).ready(function() {
         typeQuantity();
         addToCart();
         paymentNow()
@@ -117,5 +118,5 @@
                 if(response.sys_code == 200) window.location.replace("order");
             }, 'json');
         });
-    }
+    } */
 </script>

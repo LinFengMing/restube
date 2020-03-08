@@ -23,7 +23,7 @@
 						<label>Category</label>
 						<input type="text" name="type" value="<?=$res['type'];?>">
 					</div>
-					<button class="ui green button" type="submit" tabindex="0">Submit</button>
+					<button class="ui green button" type="submit" tabindex="0">送出</button>
 				</form>
 			</div>
 		</div>

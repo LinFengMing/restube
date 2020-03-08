@@ -49,6 +49,10 @@
 							</div>
 							<div class="three fields">
 								<div class="field">
+									<label>建議售價</label>
+									<input type="text" name="price" value="<?=$res['price'];?>">
+								</div>
+								<div class="field">
 									<label>售價</label>
 									<input type="text" name="cost" value="<?=$res['cost'];?>">
 								</div>
@@ -84,7 +88,7 @@
 							</div>
 						</div>
 					</div>
-					<button class="ui green button btnSubmit" type="button" tabindex="0">Submit</button>
+					<button class="ui green button btnSubmit" type="button" tabindex="0">送出</button>
 				</form>
 			</div>
 		</div>

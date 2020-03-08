@@ -116,7 +116,7 @@ class Welcome extends CI_Controller
         //$view_data['category_link'] = $id;
         //$view_data['total_all'] = $this->mod_product->get_online_total();
         //$view_data['category'] = $this->mod_category->get_all();
-        $view_data['list'] = $this->mod_product->get_all();
+        $view_data['list'] = $this->mod_product->get_category_products_all($id, 0, 0);
         //$view_data['total'] = $this->mod_product->get_category_products_total($id);
         //$view_data['pagination'] = $this->pagination($view_data['path'], $view_data['total'], $limit);
         //$view_data['cart'] = $this->cart->contents(true);

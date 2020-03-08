@@ -16,5 +16,10 @@
                 </div>
             </div>
         </div>
+        <div class="contact">
+            <p>電子信箱 <a href="mailto:professional@sunjet-robotics.com">professional@sunjet-robotics.com</a></p>
+            <p>總代理 陽捷科技</p>
+            <p>電話 02-8601-9640</p>
+        </div>
     </div>
 </div>

@@ -8,7 +8,7 @@
             <div class="item w3-third w3-margin-bottom">
                 <div class="item-img">
                     <a href="product/<?=$value['id'];?>">
-                        <img src="<?=$value['main_photo'];?>"/>
+                        <img src="<?=$value['main_photo'];?>" width="320px" height="213px" />
                     </a>
                 </div>
                 <div class="item-title">

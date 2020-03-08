@@ -109,7 +109,17 @@
     text-align: center;
 }
 
+.product-item-sub-title {
+    margin-top: 15px;
+    text-align: center;
+}
+
 .product-item-price {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.product-item-cost {
     margin-top: 10px;
     text-align: center;
 }
@@ -157,6 +167,15 @@
 .product-item-detail {
     margin-top: 50px;
     margin-left: 0px;
+}
+
+.contact {
+    font-size: 18px;
+}
+
+.contact a {
+    color: blue;
+    text-decoration: none;
 }
 
 .cart {
@@ -228,9 +247,8 @@
 }
 
 .footer {
-    margin-top: 50px;
-    color: gray;
+    margin-top: 100px;
     text-align: center;
+    color: gray;
     font-size: 10px;
-    padding: 20px;
 }

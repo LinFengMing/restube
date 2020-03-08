@@ -11,6 +11,7 @@
         <?php } else { ?>
             <a class="w3-bar-item" href="login">登入</a>
         <?php } ?>
-        <a class="w3-bar-item" href="order"><i class="icon cart"></i>$<?= $this->cart->total(); ?></a>
+        <a class="w3-bar-item" href="https://shopee.tw/" target="_blank">蝦皮賣場</a>
+        <!-- <a class="w3-bar-item" href="order"><i class="icon cart"></i>$<?= $this->cart->total(); ?></a> -->
     </div>
 </div>

@@ -46,7 +46,7 @@
 						<label>Address</label>
 						<input type="text" name="address" value="<?=$res['address'];?>">
 					</div>
-					<button class="ui green button" type="submit" tabindex="0">Submit</button>
+					<button class="ui green button" type="submit" tabindex="0">送出</button>
 				</form>
 			</div>
 		</div>
